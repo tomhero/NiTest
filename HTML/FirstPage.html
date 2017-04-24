@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
 
+    <!-- Page style -->
     <link rel="stylesheet" type="text/css" href="..\css\webstyle.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -24,34 +25,37 @@
 
 <body>
 
-    <div class="container">
+    <div class="container extend-container">
 
-        <div class="logo">
+        <div class="col-md-12 sub-logo hidden-sm hidden-xs">
+            <img src="..\img\footage\S-01.png" alt="sub-bg" class="img-responsive">
+        </div>
+
+        <div class="col-md-12 logo">
             <img src="..\img\page-one\logo.png" alt="title" class="img-responsive">
         </div>
 
         <!-- Navigator -->
-
         <div id="nav" class="row">
-            <div class="col-md-4 center-img">
+            <a class="col-md-4 center-img" href="#">
                 <img src="..\img\page-one\button1.png" alt="btn-1" class="img-responsive">
-            </div>
-            <div class="col-md-4 center-img">
+            </a>
+            <a class="col-md-4 center-img" href="#">
                 <img src="..\img\page-one\button2.png" alt="btn-2" class="img-responsive">
-            </div>
-            <div class="col-md-4 center-img">
+            </a>
+            <a class="col-md-4 center-img" href="#">
                 <img src="..\img\page-one\button3.png" alt="btn-3" class="img-responsive">
-            </div>
+            </a>
         </div>
 
         <!-- Content -->
-        <section style="max-width: 975px; margin: 0 auto;">
+        <section style="max-width: 975px; margin: 0 auto; padding: 50px;">
 
             <div id="content-1" class="row">
-                <div class="col-md-7">
-                    <img src="..\img\page-one\content-img1.jpg" class="img-responsive" alt="content-img1">
+                <div class="col-md-7 col-sm-12 col-xs-12">
+                    <img id="content-img1" src="..\img\page-one\content-img1.jpg" class="img-responsive center-img" alt="content-img1">
                 </div>
-                <div id="qoute1" class="col-md-5">
+                <div id="qoute1" class="col-md-4 col-sm-12 col-xs-12 col-md-offset-1">
                     <h1> “อัครศิลปิน” </h1>
                     <p>พระบาทสมเด็จพระเจ้าอยู่หัวภูมิพลอดุลยเดชท่านทรงเป็นคีตกวีและนักดนตรีที่ชาวโลกยกย่องทรงพระปรีชาสามารถในการทรงดนตรีทรงพระราชนิพนธ์เพลงแยกและเรียบเรียงเสียงประสานทรงเป็นครูสอนดนตรีแก่ข้าราชบริพารใกล้ชิด
                         และทรงซ่อมเครื่องดนตรีได้ด้วยตลอดจนทรงเชี่ยวชาญใน ศิลปะแขนงต่างๆอย่างแท้จริงสมกับที่พสกนิกรชาวไทยได้
@@ -61,14 +65,14 @@
             </div>
 
             <div id="content-2">
-                <div class="center-img">
+                <div class="center-img subtitle">
                     <img src="..\img\page-one\1.png" alt="subtitle-1" class="img-responsive">
                 </div>
                 <div class="row" id="content-2">
-                    <div class="col-md-7 center-img">
-                        <img src="..\img\page-one\content-img2.jpg" alt="content-img2" class="img-responsive">
+                    <div class="col-md-7 col-sm-12 col-xs-12 center-img">
+                        <img id="content-img2" src="..\img\page-one\content-img2.jpg" alt="content-img2" class="img-responsive">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-12 col-xs-12 col-md-offset-1">
                         <p id="qoute2">วงลายครามเป็นวงดนตรีใน พระบาทสมเด็จพระเจ้าอยู่หัวซึ่งทรงตั้งขึ้นที่พระที่นั่งอัมพรสถานภายหลังเสด็จนิวัตประ
                             เทศไทยที่เล่นดนตรีในแนว แจ๊ส Dixieland ซึ่งมีความ สนุกสนานเบิกบานและเปิด โอกาสให้ผู้เล่นแสดงความ
                             สามารถเฉพาะตัว
@@ -78,21 +82,51 @@
             </div>
 
             <div id="content-3">
-                <div class="center-img">
-                    <img src="..\img\page-one\2.png" alt="subtitle-1" class="img-responsive">
+                <div class="center-img subtitle">
+                    <img src="..\img\page-one\2.png" alt="subtitle-2" class="img-responsive">
                 </div>
-                <div class="row" id="content-2">
-                    <div class="col-md-7 center-img">
-                        <img src="..\img\page-one\content-img3.jpg" alt="content-img3" class="img-responsive">
+                <div class="row" id="content-3">
+                    <div class="col-md-7 col-sm-12 col-xs-12 center-img col-md-push-5">
+                        <img id="content-img3" src="..\img\page-one\content-img3.jpg" alt="content-img3" class="img-responsive">
                     </div>
-                    <div class="col-md-3">
-                        <p id="qoute3">วงลายครามเป็นวงดนตรีใน พระบาทสมเด็จพระเจ้าอยู่หัวซึ่งทรงตั้งขึ้นที่พระที่นั่งอัมพรสถานภายหลังเสด็จนิวัตประ
-                            เทศไทยที่เล่นดนตรีในแนว แจ๊ส Dixieland ซึ่งมีความ สนุกสนานเบิกบานและเปิด โอกาสให้ผู้เล่นแสดงความ
-                            สามารถเฉพาะตัว
+                    <div class="col-md-4 col-sm-12 col-xs-12 col-md-offset-1 col-md-pull-8">
+                        <p id="qoute3">วงดนตรีลายครามเป็นวงดนตรีสมัครเล่นซึ่งรวมสมาชิกที่
+                                        ล้วนเป็นพระราชวงศ์ผู้ใหญ่ที่พระบาทสมเด็จพระเจ้าอยู่หัว
+                                        ทรงคุ้นเคยมาแต่ทรงพระเยาว์การร่วมบรรเลงดนตรีวงลาย
+                                        ครามนี้ พระบาทสมเด็จพระเจ้าอยู่หัวจึงทรงมีโอกาสได้ทรง
+                                        ดนตรีและร่วมสังสรรค์ในหมู่ผู้ที่ทรงคุ้นเคยอย่างสนุกสนาน
+                                        และทรงพระสำราญผ่อนคลายจากพระราชกรณียกิจต่างๆ
+                                        ได้เป็นอย่างดีสมาชิกของวงมีอาทิ
+                        </p>
+                    </div>
+                </div>
+            </div>   
+
+            <div id="content-4">
+                <div class="center-img subtitle">
+                    <img src="..\img\page-one\3.png" alt="subtitle-3" class="img-responsive">
+                </div>
+                <div class="row" id="content-4">
+                    <div class="col-md-12">
+                        <p id="qoute4">หม่อมเจ้าวิมาทิตย์ รพีพัฒน์ , หม่อมเจ้าแววจักร จักรพันธุ์ , หม่อมหลวงเดช สนิทวงศ์ , หม่อมเจ้ากมลสาน ชุมพล , หม่อมหลวงอุดม สนิทวงศ์ หม่อมราชวงศ์พงศ์อมร กฤดากร , หม่อมราชวงศ์เสนีย์ ปราโมช ส่วนนักร้องของวงลายครามได้แก่ หม่อมเจ้ามูรธาภิเศก โสณกุล , หม่อมเจ้าขจรจบ กิตติคุณ เป็นต้น
                         </p>
                     </div>
                 </div>
             </div>
+
+        </section>
+
+        <!-- Footer -->
+        <section>
+
+            <div id="bottom-sub-logo" class="col-md-12 sub-logo hidden-sm hidden-xs">
+                <img src="..\img\footage\S-01.png" alt="sub-bg" class="img-responsive">
+            </div>
+
+            <div class="col-md-12">
+             <a class="col-md-12 center-img" href="#">
+                <img src="..\img\page-one\gotop.png" alt="btn-3" class="img-responsive">
+            </a>
 
         </section>
 
