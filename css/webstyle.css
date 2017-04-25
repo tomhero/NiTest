@@ -142,3 +142,13 @@ p{
 #bottom-sub-logo{
     bottom: 175px;
 }
+
+#page2-qoute1-1, #page2-qoute1-2{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+#page2-qoute2{
+    margin-top: 50px;
+    margin-bottom: 250  px;
+}
